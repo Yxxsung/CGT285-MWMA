@@ -9,14 +9,10 @@ C = int
 x = int
 
 
-def SolveAxPlusB():
-    A = input("Hello! Please enter the number you would like to use for A: \n")
-    B = input("Hello! Please enter the number you would like to use for B: \n")
+def SolveAxPlusB(A,B):
     x = -B/A
-    print("The solution is: " + x)
+    print("The solution is: ", x)
 
-def SolveHypotenuse():
-    A = input("Hello! Please enter the number you would like to use for A: \n")
-    B = input("Hello! Please enter the number you would like to use for B: \n")
+def SolveHypotenuse(A,B):
     C = sqrt(A^2 + B^2)
-    print("The solution is: " + C)
+    print("The solution is: ", C)
